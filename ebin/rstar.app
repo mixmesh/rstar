@@ -1,6 +1,6 @@
 %% -*- erlang -*-
 {application, rstar,
- [{description, "rstar is an Erlang implementation of the R* tree"},
+ [{description, "R-* trees"},
   {vsn, "1.0.0"},
   {registered, []},
   {applications, [kernel, stdlib]},
