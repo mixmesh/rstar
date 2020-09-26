@@ -1,0 +1,10 @@
+%% -*- erlang -*-
+{application, rstar,
+ [{description, "rstar is an Erlang implementation of the R* tree"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []},
+  {maintainers, ["Armond Dadgar"]},
+  {licenses, ["BSD"]},
+  {links, [{"Github", "https://github.com/armon/erl-rstar"}]}]}.
