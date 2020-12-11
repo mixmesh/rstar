@@ -1,7 +1,8 @@
 %% -*- erlang -*-
 {application, rstar,
  [{description, "R-* trees"},
-  {vsn, "1.0.0"},
+  {vsn, git},
+  {modules, ["@@MODULES@@"]},
   {registered, []},
   {applications, [kernel, stdlib]},
   {env, []},
